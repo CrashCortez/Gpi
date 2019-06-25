@@ -68,13 +68,13 @@ cd
 cd /opt/retropie/configs/all
 sudo rm runcommand-onend.sh
 sudo rm runcommand-onstart.sh
-wget https://raw.githubusercontent.com/CrashCortez/Gpi/test/runcommand-onend.sh
-wget https://raw.githubusercontent.com/CrashCortez/Gpi/test/runcommand-onstart.sh
+sudo wget https://raw.githubusercontent.com/CrashCortez/Gpi/test/runcommand-onend.sh
+sudo wget https://raw.githubusercontent.com/CrashCortez/Gpi/test/runcommand-onstart.sh
 sudo chmod a+x *.sh
 cd
 cd /opt/retropie/supplementary/xboxdvr/bin
 sudo rm quit.sh
-wget https://raw.githubusercontent.com/CrashCortez/Gpi/test/quit.sh
+sudo wget https://raw.githubusercontent.com/CrashCortez/Gpi/test/quit.sh
 sudo chmod a+x quit.sh
 }
 
