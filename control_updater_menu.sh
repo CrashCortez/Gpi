@@ -53,7 +53,7 @@ wget https://raw.githubusercontent.com/CrashCortez/Gpi/master/runcommand-onend.s
 wget https://raw.githubusercontent.com/CrashCortez/Gpi/master/runcommand-onstart.sh
 sudo chmod a+x *.sh
 cd
-cd /opt/retropie/supplementary/xboxdvr/bin
+cd /opt/retropie/supplementary/xboxdrv/bin
 sudo rm quit.sh
 wget https://raw.githubusercontent.com/CrashCortez/Gpi/master/quit.sh
 sudo chmod a+x quit.sh
